@@ -19,32 +19,90 @@ body {
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
+    
 }
 
 /* HEADER
 =========================*/
 
 .header {
-    padding: 30px 0px 30px 0px;
+    width: 100%;
+    height: 134px;
 }
 
 .header__inner {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    border-bottom: 3px solid #fff
+    padding: 38px 0px 38px 0px;
+    
+    border-bottom: 4px solid #fff;
+  
 }
+
+
 
 /* NAV
 =========================*/
 
 .nav {
+    display: flex;
     font-size: 21px;
 }
 
 .nav__link{
+    margin-left: 50px;
     color: #fff;
+    
     text-decoration: none;
+}
+
+.nav__link:first-child {
+    margin-left: 0;
 }
 .nav__link:hover {
     text-decoration: underline;
+}
+
+/* Intro
+=========================*/
+.intro {
+    display: flex;
+    flex-direction: column;
+    height: 634px;
+    padding-top: 75px;
+}
+
+.container__intro {
+    padding: 0 0 0 0;
+}
+
+.intro__inner {
+    width: 100%;
+    height: 467px;
+    max-width: 1095px;
+    margin: 0 auto;
+}
+
+.intro__title {
+    font-size: 60px;
+    text-align: center;
+    line-height: 79.35px;
+    letter-spacing: 2px;
+    transform: scaleY(114%);
+    margin: 0 0 0 0;
+}
+.intro__subtitle {
+    font-size: 31px;
+    text-align: center;
+    line-height: 79.35px;
+    letter-spacing: 2px;
+    transform: scaleY(114%);
+    
+    margin: 0 0 0 0;
+    padding-top: 20px;
+}
+
+.intro__picture {
+    padding-top: 130px;
 }
